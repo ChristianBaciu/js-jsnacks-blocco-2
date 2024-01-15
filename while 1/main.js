@@ -5,9 +5,9 @@ const attivaHtml = document.getElementById( "attiva" )
 attivaHtml.addEventListener('click', function() {
 
     while (somma < 50) {
-        let input = prompt("Inserisci un numero:", "25");
+        let input = parseFloat (prompt("Inserisci un numero:", "25"));
 
-        let numero = parseFloat(input);
+        let numero = input;
 
         if (numero){
             numeriArray.push(numero);
