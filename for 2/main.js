@@ -8,7 +8,7 @@ attivaHtml.addEventListener('click', function() {
     let arrayMinore;
 
     if(primoArray.lenght > secondoArray.lenght){
-        arrayMinore = array2
+        arrayMinore = secondoArray
     }else if(primoArray.lenght < secondoArray.lenght){
         arrayMinore = primoArray
     }
